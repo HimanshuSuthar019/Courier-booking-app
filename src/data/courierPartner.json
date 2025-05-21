@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Delhivery",
+    "logo": "./public/images/delhivery-logo.png",
+    "shippingRate": 80,
+    "estimatedDeliveryDay": 2
+  },
+  {
+    "name": "DTDC",
+    "logo": "./public/images/DTDC-logo.png",
+    "shippingRate": 100,
+    "estimatedDeliveryDay": 3
+  }
+]

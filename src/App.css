@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0%;
+
+}
+
+.app {
+  height:100vh;
+  display:flex-box;
+  background-color: #e3f6f5; 
+}
+
+/* Title and navigation tab */
+.main-header{
+  display: flex;
+  height: 70px;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: #272343;
+  padding-top: 6px;
+  padding-bottom: 17px;
+  
+  
+}
+.main-header span{
+  padding: 40px;
+  font-family:monospace;
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+
+}
+.heading   {
+  font-family: Verdana;
+  padding-left: 25px;
+  padding-right: 150px;
+  color: #f4eeff;
+  }
+.heading h1 {
+  font-size: 45px;
+  font-family:cursive;
+}
+.logo{
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+
+
+.bookingForm{
+  display: flex ;
+  width: 1330px;
+  margin-top: 20px;
+  justify-self: center;
+  padding: 57px 80px;
+  border: 1px solid black;
+  background-color: #272343;
+  
+}
+/* Booking form which has pickup and delivery code inputBox*/
+.bookingForm-main{
+  height: 450px;
+  width: 350px;
+  background-color: #ccc;
+  color: black;
+  /* justify-self:right; */
+  margin-left: 70px;
+  padding-left: 55px;
+  border-radius: 3%;
+}
+
+
+/* Side title: left side of booking pickup and delivery code form */
+.sideTitle{
+  /* justify-self: left; */
+  margin-top:40px ;
+  padding-right:40px;
+  padding-left: 70px;
+  font-weight: 500;
+  font-family: fantasy;
+  color: #ffce76;
+}
+.sideTitle img {
+  height: 200px;
+  width: 350px;
+  margin-top: 65px;
+  padding-left:20px;
+  border-radius: 12%;
+  
+}
+.sideTitle #p1{
+  font-size: 40px;
+}
+.sideTitle #p2 
+{
+  font-size: 45px;
+  
+}
+.sideTitle #p3{
+  font-size: 45px;
+}
+.sideTitle #p4{
+  font-size: 100px;
+  color: #ffa41b;
+}
+.sideTitle #img-p{
+  display: flex;
+}
+
+.bookingFormHeading{
+  margin-top: 20px;
+  margin-bottom: 40px
+}
+.bookingFormHeading #span1{
+  
+  font-size: 40px;
+  font-weight: 700;
+}
+.bookingFormHeading #span2{
+  
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/* booking form Pickup and Delivery code inputBox and search btn's CSS */
+#pickupPin {
+  margin: 20px;
+  padding: 20px ;
+  width: 200px;
+  font-size: 16px;
+}
+#deliveryPin {
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  font-size: 16px;
+}
+#searchBtn{
+  margin-top: 30px;
+  padding: 12px;
+  width: 300px;
+  font-size: 20px;
+  color:white;
+  background-color: #272343;
+  justify-self:center;
+  border-radius: 8px;
+  border: none;
+}
+
+
+/* Courier Card */
+.courierList{
+  margin-top: 15px;
+  margin-left: 40px;
+  
+}
+.courierList h2{
+  font-size: 35px;
+  font-weight:600;
+  font-family: serif;
+  margin-bottom: 10px;
+}
+.courierList h3{
+  
+  font-size: 30px;
+  font-weight:600;
+  font-family: serif;
+  
+}
+.courierCard{
+  width: 250px;
+  height: 220px;
+  padding: 15px;
+  border-left: 2px solid #272343;
+  border-bottom: 2px solid #272343;
+  border-bottom-left-radius:10px;
+  margin-bottom: 10px;
+}
+
+.courierCard img{
+  height:100px;
+  width: 100px;
+}
+
+.courierCard p{
+  font-size: 17px; 
+  padding-right:20px;
+}
+.courierCard button{
+  padding: 10px;
+  margin-top: 8px;
+  font-size: 16px;
+  border:none;
+  background-color:#0075f6;
+  color:white;
+}
+
+
+/* Confirmation Details */
+.confirmationDetails{
+  height: 450px;
+  width: 90%;
+  margin: 50px;
+  background-color: #fff9af;
+  padding: 50px;
+}
+.confirmationDetails h2{
+  font-size: 45px;
+}
+.confirmationDetails #p1
+{
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 30px;
+  font-weight: 500;
+  color: #00204a;
+}
+.confirmationDetails p{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.confirmationDetails button
+{
+  margin: 18px;
+  background-color: #0075f6;
+  padding: 12px;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
+
+.bookingConfirm {
+  margin: 50px;
+}
+.bookingConfirm h2 {
+  font-size: 45px;
+}
+
+.bookingConfirm p{
+  font-size: 20px;
+  margin: 2px;
+  
+}
+.bookingConfirm h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.bookingConfirm button{
+  padding: 12px;
+  margin-top: 16px;
+  font-size:16px ;
+  border: none;
+  background-color: #1f5cab;
+  color: white;
+}
