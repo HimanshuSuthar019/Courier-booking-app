@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import Confirmation from './components/confirmation';
+import Confirmation from './components/Confirmation';
 import BookingForm from './components/BookingForm';
-import CourierCard from './components/courierCard';
+import CourierCard from './components/CourierCard';
 import courierData from './data/courierPartner.json';
 import './App.css';
 
