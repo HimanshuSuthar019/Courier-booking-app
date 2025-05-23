@@ -3,6 +3,7 @@ import Confirmation from './components/Confirmation';
 import BookingForm from './components/BookingForm';
 import CourierCard from './components/CourierCard';
 import courierData from './data/courierPartner.json';
+import Navigation from './components/Navigation';
 import './App.css';
 
 
@@ -41,6 +42,15 @@ function App(){
     setBookingConfirmed(false);
     setSelectedCourier(null);
     searchResults(null);
+
+  }
+
+  function onHandleHome ()
+  {
+    
+    setSearchResults(null);
+    setSelectedCourier(null);
+    setBookingConfirmed(null);
   }
 
   
@@ -53,15 +63,16 @@ function App(){
     <h1>Parcel</h1>
     <p>The Courier Service</p>
     </div>
-        <nav>
+        {/* <nav>
             <ul className='nev-list'>
                 <span id='home' >Home</span>
                 <span id='about' >About</span>
                 <span id='services' >Services</span>
-                <span id='contacts' >Contact</span>
+                <button onClick={handleOnClickOfContacts} id='contacts' >Contact</button>
                 <span id='help' >Help</span>
             </ul>
-        </nav>
+        </nav> */}
+        < Navigation handleHome={onHandleHome} />
     </header>
 
     

@@ -10,7 +10,7 @@
   background-color: #e3f6f5; 
 }
 
-/* Title and navigation tab */
+/* Title and navigation tab */  
 .main-header{
   display: flex;
   height: 70px;
@@ -22,12 +22,15 @@
   
   
 }
-.main-header span{
-  padding: 40px;
+.main-header a{
+  padding: 12px;
+  margin-left: 55px;
   font-family:monospace;
   font-size: 20px;
-  text-decoration: none;
+  border: none;
   color: aliceblue;
+  background-color: #272343;
+  text-decoration: none;
 
 }
 .heading   {
